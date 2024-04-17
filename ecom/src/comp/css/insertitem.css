@@ -1,0 +1,138 @@
+.dropzone.dz-clickable {
+  cursor: pointer;
+  text-align: center;
+}
+
+.digits {
+  font-family: work-Sans, sans-serif;
+}
+
+#multiFileUpload {
+  border: 0.2rem dashed #ff4b3c;
+  padding: 140px 50px;
+
+}
+
+.dropzone {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid rgba(35, 35, 35, 0.08);
+  background-color: rgba(35, 35, 35, 0.02);
+  padding: 1em;
+  min-height: 360px;
+  border-radius: 3px;
+}
+
+.card {
+  letter-spacing: 0.5px;
+}
+
+.card {
+  word-wrap: break-word;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+}
+
+.dropzone i {
+  font-size: 50px;
+  color: var(--theme-color);
+}
+
+.dropzone * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dropzone * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 14px;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dropzone .dz-preview {
+  -webkit-box-shadow: 0px 0px 3px #ff4c3b;
+  box-shadow: 0px 0px 3px #ff4c3b;
+}
+
+.dropzone .dz-preview {
+  position: relative;
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0;
+  border: none;
+  background-color: #eeeeee;
+  width: 120px;
+  height: 120px;
+  -webkit-box-shadow: 0px 0px 3px #ab8ce4;
+  box-shadow: 0px 0px 3px #ab8ce4;
+}
+
+.dropzone.dz-clickable * {
+  cursor: default;
+  border-radius: 5px;
+}
+
+.dropzone .dz-preview {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  display: inline-block;
+  margin: 17px;
+  vertical-align: top;
+  border: 1px solid #acacac;
+  padding: 6px 6px 6px 6px;
+  -webkit-box-shadow: 1px 1px 4px rgba(35, 35, 35, 0.16);
+  box-shadow: 1px 1px 4px rgba(35, 35, 35, 0.16);
+  font-size: 14px;
+}
+
+.dropzone * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dropzone * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+#Multyunit>div {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  min-width: 50px;
+  width: fit-content;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(235, 232, 232);
+  padding: 10px;
+}
+
+#Multyunit>div:hover:after {
+  content: "  x";
+  position: absolute;
+  background-color: rgb(190, 185, 185);
+  color: aliceblue;
+  padding: 0px 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  top: 0;
+}
